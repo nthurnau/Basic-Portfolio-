@@ -1,4 +1,4 @@
-
+/* make sure that your indentation is correct, everything should line up */
 header{
       float:left;
       background:#4aaaa5;
@@ -73,7 +73,7 @@ h2{
 }
 
 
-.arch{
+.arch{  /* would it maybe be better to style the container and then have all of the elements inside of it move in relation to it? for example, if you say that the div has a width and height, you can then say that each of the elements inside, like these images, all have widths and heights that would fit into that large box, relative to the large box and then adjust the margins and padding, and the position of the label all in one class instead of styling all of them individually */
       position:absolute;
       width:140px;
       margin-left:-10px;
